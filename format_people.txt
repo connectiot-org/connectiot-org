@@ -1,0 +1,388 @@
+  { id: "bill-gates", name: "Bill Gates", role: "Co-founder of Microsoft", avatar: "https://jmail.world/_next/image?url=%2Fpeople-thumbnails%2Fbill-gates.png&w=256&q=75" },
+  { id: "reid-hoffman", name: "Reid Hoffman", role: "Co-founder of LinkedIn", avatar: "https://jmail.world/_next/image?url=%2Fpeople-thumbnails%2Freid-hoffman.png&w=256&q=75" },
+  { id: "woody-allen", name: "Woody Allen", role: "Filmmaker and actor", avatar: "https://jmail.world/_next/image?url=%2Fpeople-thumbnails%2Fwoody-allen.png&w=256&q=75" },
+
+======
+"bill-gates", "reid-hoffman", "woody-allen"
+======
+
+  "bill-gates": {
+    contactId: "bill-gates",
+    lastDate: "09/25/17",
+    lastMessage: "I agree these are exciting topics and that there is real progress.  I am confused about what the goa",
+    messages: [
+      {
+            id: 1,
+            from: "them",
+            text: "-----Original Appointment-----  From: Bill Gates  Sent: Tuesday, June 28, 2011 4:00 PM  To: Bill Gat",
+            time: "12:00 PM",
+            date: "Wed, Jul 6, 2011"
+      },
+      {
+            id: 2,
+            from: "them",
+            text: "I need your help in thinking through. Will call you when I land 7:30pm PST (10:30EST). If too late f",
+            time: "12:00 PM",
+            date: "Sun, May 12, 2013"
+      },
+      {
+            id: 3,
+            from: "them",
+            text: "this is pretty bad. and might have been the cause of her bad mail in purls. this makes more sense.  ",
+            time: "12:00 PM",
+            date: "Thu, Jul 11, 2013"
+      },
+      {
+            id: 4,
+            from: "them",
+            text: "From: Boris Nikolic < To: \\",
+            time: "12:00 PM",
+            date: "Sat, Aug 10, 2013"
+      },
+      {
+            id: 5,
+            from: "me",
+            text: "will get back to you tomorrow or wed  On Mon, Aug 12, 2013 at 12:23 PM, Lauren Jiloty <> wrote:  Hi ",
+            time: "12:00 PM",
+            date: "Mon, Aug 12, 2013"
+      },
+      {
+            id: 6,
+            from: "them",
+            text: "lets do larry at 2 your time  On Sat, Aug 10, 2013 at 2:05 PM, Boris Nikolic <> wrote:  Can you talk",
+            time: "12:00 PM",
+            date: "Mon, Aug 12, 2013"
+      },
+      {
+            id: 7,
+            from: "them",
+            text: "Hi  Will this work for Jeffrey's calendar? Dinner on Sunday, September 22nd?  Thank you!  Lauren  La",
+            time: "12:00 PM",
+            date: "Thu, Aug 15, 2013"
+      },
+      {
+            id: 8,
+            from: "them",
+            text: "can we speak, ? The consensus is that it can't be a gift. facts and circumstances in addition to cas",
+            time: "12:00 PM",
+            date: "Tue, Aug 27, 2013"
+      },
+      {
+            id: 9,
+            from: "me",
+            text: "Yes - will call you in 10min or so. On the phone. My phone/email is going of the hook",
+            time: "12:00 PM",
+            date: "Tue, Oct 8, 2013"
+      },
+      {
+            id: 10,
+            from: "me",
+            text: "If you thought smart. Larry Summers would gladly be involved, the flexibility of the DAFS are custom",
+            time: "12:00 PM",
+            date: "Sat, Nov 23, 2013"
+      },
+      {
+            id: 11,
+            from: "me",
+            text: "there is much more to it. 1. the community foundation that mark gave to IS A DAF . 2. the one I prop",
+            time: "12:00 PM",
+            date: "Mon, Jan 13, 2014"
+      },
+      {
+            id: 12,
+            from: "them",
+            text: "It is a good analogy.  It is clearer to me now than before and it could be a great thing.  This week",
+            time: "12:00 PM",
+            date: "Mon, Mar 24, 2014"
+      },
+      {
+            id: 13,
+            from: "them",
+            text: "I am on my way to Indonesia which is mostly 2 weeks of vacation after I meet with philanthropists in",
+            time: "12:00 PM",
+            date: "Fri, Apr 4, 2014"
+      },
+      {
+            id: 14,
+            from: "them",
+            text: "That is good.  I guess his peace prize committee job is also up in the air?",
+            time: "12:00 PM",
+            date: "Thu, Jun 26, 2014"
+      },
+      {
+            id: 15,
+            from: "me",
+            text: "amongst the group is over 20 billion of income in ONE YEAR=gt; no way to minimize the tax except pri",
+            time: "12:00 PM",
+            date: "Thu, Sep 25, 2014"
+      },
+      {
+            id: 16,
+            from: "me",
+            text: "I enjoyed the breakfast a lot.  All of the attendees were interesting people.  We managed to talk ab",
+            time: "12:00 PM",
+            date: "Thu, Dec 11, 2014"
+      },
+      {
+            id: 17,
+            from: "me",
+            text: "I agree these are exciting topics and that there is real progress.  I am confused about what the goa",
+            time: "12:00 PM",
+            date: "Mon, Sep 25, 2017"
+      }
+]
+  },
+
+  "reid-hoffman": {
+    contactId: "reid-hoffman",
+    lastDate: "09/29/18",
+    lastMessage: "Great",
+    messages: [
+      {
+            id: 1,
+            from: "them",
+            text: "Yup. Organizing now.  Sent from my iPhone",
+            time: "12:00 PM",
+            date: "Sat, Apr 30, 2016"
+      },
+      {
+            id: 2,
+            from: "me",
+            text: "goldilocks . not too hard not too easy.",
+            time: "12:00 PM",
+            date: "Thu, May 19, 2016"
+      },
+      {
+            id: 3,
+            from: "me",
+            text: "I'm seeing him on Monday for lunch -- anything in particular we should c=at about?",
+            time: "12:00 PM",
+            date: "Sat, Jun 4, 2016"
+      },
+      {
+            id: 4,
+            from: "me",
+            text: "been busy https://www.linkedin.com/pulse/linkedin-microsoft-changing-way-world-works-jeff-weiner?trk",
+            time: "12:00 PM",
+            date: "Mon, Jun 13, 2016"
+      },
+      {
+            id: 5,
+            from: "me",
+            text: "anything you think that I should particularly cover?  about to head out for a busy day ... i presume",
+            time: "12:00 PM",
+            date: "Sun, Jun 19, 2016"
+      },
+      {
+            id: 6,
+            from: "them",
+            text: "Forwarded message ---  From: Reid Hoffman <1 Date: Sun, Jun 19, 2016 at 8:39 PM Subject: Re: Re: To:",
+            time: "12:00 PM",
+            date: "Mon, Jun 20, 2016"
+      },
+      {
+            id: 7,
+            from: "them",
+            text: "gathering.",
+            time: "12:00 PM",
+            date: "Fri, Jul 8, 2016"
+      },
+      {
+            id: 8,
+            from: "them",
+            text: "have you re-installed signal?  i'm getting a safety number there. i'm fairly heads down until electi",
+            time: "12:00 PM",
+            date: "Wed, Nov 2, 2016"
+      },
+      {
+            id: 9,
+            from: "me",
+            text: "I'm out of town, unfortunately. Any other natural trips out here?",
+            time: "12:00 PM",
+            date: "Thu, Feb 23, 2017"
+      },
+      {
+            id: 10,
+            from: "them",
+            text: "Fun. You good? Hear that that's =emolished.  Reid Hoffman Apologies for any mobile haste www.linkedi",
+            time: "12:00 PM",
+            date: "Sat, Sep 30, 2017"
+      },
+      {
+            id: 11,
+            from: "them",
+            text: "We invested at $49.52 per share, which equates to $1.6b market cap at time.=nbsp;  Useful?  general ",
+            time: "12:00 PM",
+            date: "Sun, Jan 28, 2018"
+      },
+      {
+            id: 12,
+            from: "me",
+            text: "Ok sorry to hear",
+            time: "12:00 PM",
+            date: "Fri, Mar 9, 2018"
+      },
+      {
+            id: 13,
+            from: "them",
+            text: "I prefer alternatively sane as a description. ☺",
+            time: "12:00 PM",
+            date: "Tue, Mar 13, 2018"
+      },
+      {
+            id: 14,
+            from: "me",
+            text: "Looks like Saida has been scheduling other key meetings that day, let's make it 10am for 60 min. (I'",
+            time: "12:00 PM",
+            date: "Tue, Mar 13, 2018"
+      },
+      {
+            id: 15,
+            from: "me",
+            text: "Not sure what this message is? ☺",
+            time: "12:00 PM",
+            date: "Mon, Apr 30, 2018"
+      },
+      {
+            id: 16,
+            from: "them",
+            text: "☺  Nope — good reminder. Just mostly focused on 2018/2020 while keeping my responsibilities of work ",
+            time: "12:00 PM",
+            date: "Sun, Jun 24, 2018"
+      },
+      {
+            id: 17,
+            from: "me",
+            text: "Great",
+            time: "12:00 PM",
+            date: "Sat, Sep 29, 2018"
+      }
+]
+  },
+
+  "woody-allen": {
+    contactId: "woody-allen",
+    lastDate: "01/10/18",
+    lastMessage: "Hello Lauren and Happy New Year! Hope all is well.  Jeffrey will be coming to view Woody's movie tod",
+    messages: [
+      {
+            id: 1,
+            from: "them",
+            text: "Jeffrey would like to confirm the movie viewing for tomorrow at 3pm...will this be at the Film Cente",
+            time: "12:00 PM",
+            date: "Mon, Mar 28, 2016"
+      },
+      {
+            id: 2,
+            from: "them",
+            text: "Hi  We can screen the movie anytime between 10am and 4pm this Tuesday, Wednesday and Thursday. Let m",
+            time: "12:00 PM",
+            date: "Mon, Mar 28, 2016"
+      },
+      {
+            id: 3,
+            from: "them",
+            text: "Hi Lauren...the plan is for Jeffrey to leave his house at 12:30 and come to you!! Soon Yi mentioned ",
+            time: "12:00 PM",
+            date: "Mon, Oct 17, 2016"
+      },
+      {
+            id: 4,
+            from: "them",
+            text: "Hello Lauren-Jeffrey is thinking he will come visit woody on the set today-he says there are 2 addre",
+            time: "12:00 PM",
+            date: "Mon, Oct 17, 2016"
+      },
+      {
+            id: 5,
+            from: "them",
+            text: "ok no worries...I hope you are able to get things up and running! We will remain posted...  > On Dec",
+            time: "12:00 PM",
+            date: "Wed, Dec 14, 2016"
+      },
+      {
+            id: 6,
+            from: "them",
+            text: "...hmmm so it sounds like possibly after lunch would be better for a visit? I am coordinating his da",
+            time: "12:00 PM",
+            date: "Mon, Oct 2, 2017"
+      },
+      {
+            id: 7,
+            from: "them",
+            text: "ok, super. thanks!  > On Oct 2, 2017, at 11:15 AM, Woody Allen Assistant < > wrote: > • > Hi Lesley,",
+            time: "12:00 PM",
+            date: "Mon, Oct 2, 2017"
+      },
+      {
+            id: 8,
+            from: "them",
+            text: "thank you! Will do! :)  > On Dec 16, 2016, at 9:27 AM, Lauren C < wrote: > >You enjoy, too! Go relax",
+            time: "12:00 PM",
+            date: "Mon, Oct 2, 2017"
+      },
+      {
+            id: 9,
+            from: "them",
+            text: "Ok go and appreciate the honesty!!  Sent from my iPhone  On Oct 3, 2017, at 7:58 AM, Woody Allen Ass",
+            time: "12:00 PM",
+            date: "Tue, Oct 3, 2017"
+      },
+      {
+            id: 10,
+            from: "them",
+            text: "Super. Thank you!  Sent from my iPhone",
+            time: "12:00 PM",
+            date: "Tue, Oct 10, 2017"
+      },
+      {
+            id: 11,
+            from: "them",
+            text: "hmmm, why do you recommend one and not both?",
+            time: "12:00 PM",
+            date: "Wed, Oct 11, 2017"
+      },
+      {
+            id: 12,
+            from: "them",
+            text: "super! thanks  Misha wants to attend the Central Park locations",
+            time: "12:00 PM",
+            date: "Wed, Oct 11, 2017"
+      },
+      {
+            id: 13,
+            from: "them",
+            text: "",
+            time: "12:00 PM",
+            date: "Wed, Oct 11, 2017"
+      },
+      {
+            id: 14,
+            from: "them",
+            text: "",
+            time: "12:00 PM",
+            date: "Wed, Oct 11, 2017"
+      },
+      {
+            id: 15,
+            from: "them",
+            text: "ok super! I will get back to you! thanks  > On Oct 10, 2017, at 12:49 PM, Woody Allen Assistant wrot",
+            time: "12:00 PM",
+            date: "Wed, Oct 11, 2017"
+      },
+      {
+            id: 16,
+            from: "me",
+            text: "Ok on all! Thank you!!  Sent from my iPhone",
+            time: "12:00 PM",
+            date: "Tue, Nov 21, 2017"
+      },
+      {
+            id: 17,
+            from: "them",
+            text: "Hello Lauren and Happy New Year! Hope all is well.  Jeffrey will be coming to view Woody's movie tod",
+            time: "12:00 PM",
+            date: "Wed, Jan 10, 2018"
+      }
+]
+  },

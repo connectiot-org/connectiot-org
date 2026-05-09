@@ -1,0 +1,82 @@
+/* iOS-inspired UI enhancements */
+/* Color palette */
+:root {
+  --primary:#007AFF; /* iOS blue */
+  --background:#F2F2F7;
+  --sidebar-bg:#FFFFFF;
+  --chat-bg:#FFFFFF;
+  --text-primary:#111111;
+  --text-secondary:#6E6E73;
+  --border:#E5E5EA;
+  --blur-bg:rgba(255,255,255,0.6);
+  --shadow:0 8px 24px rgba(0,0,0,0.08);
+  --radius:12px;
+  --font-family:'SF Pro Text','SF Pro Display','SF Pro Rounded',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary: #0A84FF;
+    --background: #1C1C1E;
+    --sidebar-bg: #2C2C2E;
+    --chat-bg: #1C1C1E;
+    --text-primary: #F5F5F7;
+    --text-secondary: #A1A1A6;
+    --border: #3A3A3C;
+    --blur-bg: rgba(255,255,255,0.1);
+  }
+}
+
+/* Global resets */
+*, *::before, *::after {box-sizing:border-box;margin:0;padding:0;}
+html,body {height:100%;background:var(--background);font-family:var(--font-family);color:var(--text-primary);-webkit-tap-highlight-color:transparent;}
+
+/* App layout */
+.app {display:flex;flex-direction:row;height:100vh;overflow:hidden;}
+
+/* Sidebar */
+.sidebar {width:280px;min-width:280px;background:var(--sidebar-bg);border-right:1px solid var(--border);backdrop-filter:blur(20px);box-shadow:var(--shadow);border-top-left-radius:var(--radius);border-bottom-left-radius:var(--radius);transition:transform .3s ease;}
+.sidebar.hidden {transform:translateX(-100%);}
+
+/* Sidebar header */
+.s-head {padding:12px 16px;display:flex;align-items:center;gap:10px;background:var(--blur-bg);border-bottom:1px solid var(--border);border-top-left-radius:var(--radius);}
+.logo-name {font-weight:600;color:var(--primary);}
+.logo-sub {font-size:12px;color:var(--text-secondary);}
+
+/* Search */
+.s-search {display:flex;align-items:center;gap:8px;margin:8px 12px;padding:10px 14px;background:rgba(142,142,147,0.12);border-radius:var(--radius);border:1px solid var(--border);box-shadow:inset 0 1px 0 rgba(255,255,255,0.7);}
+.s-search:focus-within {border-color:rgba(0,122,255,0.35);background:#fff;box-shadow:0 0 0 3px rgba(0,122,255,0.12);}
+
+/* List items */
+.s-item {display:flex;align-items:center;gap:12px;padding:12px 16px;margin:8px 12px;background:#fff;border-radius:var(--radius);border:1px solid var(--border);box-shadow:0 2px 6px rgba(0,0,0,0.05);transition:background .15s,transform .2s;}
+.s-item:hover {background:var(--blur-bg); transform:scale(1.02);}
+.s-item:active {transform:scale(0.97);}
+.s-item.active {background:rgba(232,240,255,0.6);border-color:rgba(0,122,255,0.4);}
+
+/* Avatar */
+.av, .av-f {width:48px;height:48px;border-radius:50%;flex-shrink:0;object-fit:cover;}
+.av-f {display:flex;align-items:center;justify-content:center;background:var(--primary);color:#fff;font-weight:700;}
+
+/* Main chat area */
+.main {flex:1;display:flex;flex-direction:column;background:var(--chat-bg);position:relative;overflow:hidden;}
+.main::before {content:"";position:absolute;inset:0;background:radial-gradient(circle at 20% -10%, #FFFFFF 0%, #F2F2F7 55%, #E9EBF1 100%);opacity:.75;pointer-events:none;}
+.c-head {display:flex;align-items:center;gap:10px;padding:12px 16px;background:var(--blur-bg);border-bottom:1px solid var(--border);backdrop-filter:blur(20px); transition: background .2s, padding .2s;}
+.back-btn {display:none;color:var(--primary);font-size:22px;cursor:pointer;}
+.c-name {font-weight:600;font-size:16px;}
+.c-role {font-size:12px;color:var(--text-secondary);}
+.c-msgs {flex:1;overflow-y:auto;padding:16px 24px;display:flex;flex-direction:column;gap:8px;}
+.bubble {max-width:70%;padding:10px 14px;border-radius:var(--radius);font-size:14px;line-height:1.4;box-shadow:0 2px 6px rgba(0,0,0,0.05);}
+.b-me {background:var(--primary);color:#fff;align-self:flex-end;}
+.b-them {background:#fff;color:var(--text-primary);align-self:flex-start;}
+
+/* Responsive */
+@media (max-width:768px) {
+  .app {flex-direction:column;}
+  .sidebar {position:absolute;top:0;left:0;width:100%;height:100%;z-index:20;transform:translateX(0);border-radius:0;}
+  .sidebar.hidden {transform:translateX(-100%);}
+  .back-btn {display:flex;}
+  .c-head {padding:10px 12px;}
+  .c-msgs {padding:12px 14px;}
+  .bubble {max-width:85%;}
+}
